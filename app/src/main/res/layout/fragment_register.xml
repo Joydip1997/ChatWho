@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".User_Account_Actions.Fragments.LoginFragment">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:title="Register"
+            app:titleTextColor="#fff">
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10sp"
+        android:layout_below="@+id/toolbar"
+        >
+
+
+
+        <EditText
+            android:id="@+id/user_reg_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:padding="15sp"
+            android:hint="Enter A User Name Address"
+            android:background="@drawable/edit_text_background">
+        </EditText>
+
+        <EditText
+            android:id="@+id/user_reg_email_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:padding="15sp"
+            android:inputType="textEmailAddress"
+            android:hint="Enter Email Address"
+            android:background="@drawable/edit_text_background">
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/user_reg_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:padding="15sp"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:background="@drawable/edit_text_background">
+        </EditText>
+
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_marginTop="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary">
+        </Button>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/linear_layout2">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Have An Account?"
+            android:textSize="15sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/login_fragment"
+            android:layout_marginLeft="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:textStyle="bold"
+            android:textSize="15sp">
+        </TextView>
+
+    </LinearLayout>
+
+</RelativeLayout>

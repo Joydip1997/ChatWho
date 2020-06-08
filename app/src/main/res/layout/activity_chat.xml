@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+    <FrameLayout
+        android:id="@+id/container1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/c">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/layOut"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:title="">
+
+            <ImageView
+                android:id="@+id/back_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_back_button"
+                android:layout_marginRight="5dp">
+            </ImageView>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/user_profile_chat_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_launcher_background"
+               />
+            
+            
+            <TextView
+                android:id="@+id/user_name_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:layout_marginLeft="15sp"
+                android:textSize="18sp">
+            </TextView>
+            
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chats_rView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layout"
+        android:layout_below="@+id/layOut"
+        android:padding="10dp"
+        />
+
+ <RelativeLayout
+     android:id="@+id/layout"
+     android:padding="5dp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:background="#fff">
+
+     <EditText
+         android:id="@+id/messages_edit_text"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="Enter Your Message"
+         android:background="@android:color/transparent"
+         android:layout_toLeftOf="@+id/send_bttn">
+     </EditText>
+
+     <Button
+         android:id="@+id/send_bttn"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:background="@drawable/ic_send_message"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentRight="true">
+     </Button>
+ </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

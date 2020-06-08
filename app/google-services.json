@@ -1,0 +1,185 @@
+{
+  "project_info": {
+    "project_number": "882858798544",
+    "firebase_url": "https://chatr-a4b45.firebaseio.com",
+    "project_id": "chatr-a4b45",
+    "storage_bucket": "chatr-a4b45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882858798544:android:d205b1bac15ae8485eddd5",
+        "android_client_info": {
+          "package_name": "com.androdude.chatpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882858798544-a3ks7si40an365c29pd5f8955kik1snl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRrlpCIbfEGHzYNkrnF3_SprQUzKbsBm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882858798544-a3ks7si40an365c29pd5f8955kik1snl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882858798544:android:127708e87060ff1e5eddd5",
+        "android_client_info": {
+          "package_name": "com.androdude.chatr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882858798544-a3ks7si40an365c29pd5f8955kik1snl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRrlpCIbfEGHzYNkrnF3_SprQUzKbsBm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882858798544-a3ks7si40an365c29pd5f8955kik1snl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882858798544:android:d19234e5247d513c5eddd5",
+        "android_client_info": {
+          "package_name": "com.androdude.chatu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882858798544-a3ks7si40an365c29pd5f8955kik1snl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRrlpCIbfEGHzYNkrnF3_SprQUzKbsBm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882858798544-a3ks7si40an365c29pd5f8955kik1snl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882858798544:android:b290cfb708a47bb05eddd5",
+        "android_client_info": {
+          "package_name": "com.androdude.chatwho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882858798544-a3ks7si40an365c29pd5f8955kik1snl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRrlpCIbfEGHzYNkrnF3_SprQUzKbsBm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882858798544-a3ks7si40an365c29pd5f8955kik1snl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882858798544:android:a6388828d33425a05eddd5",
+        "android_client_info": {
+          "package_name": "com.androdude.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882858798544-a3ks7si40an365c29pd5f8955kik1snl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRrlpCIbfEGHzYNkrnF3_SprQUzKbsBm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882858798544-a3ks7si40an365c29pd5f8955kik1snl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882858798544:android:0aa97de4e5acb2085eddd5",
+        "android_client_info": {
+          "package_name": "com.androdude.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882858798544-a3ks7si40an365c29pd5f8955kik1snl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRrlpCIbfEGHzYNkrnF3_SprQUzKbsBm4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882858798544-a3ks7si40an365c29pd5f8955kik1snl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

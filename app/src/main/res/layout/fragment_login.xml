@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".User_Account_Actions.Fragments.LoginFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:title="Log In"
+            app:titleTextColor="#fff">
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10sp"
+        android:layout_below="@+id/toolbar"
+        >
+
+
+       <EditText
+           android:id="@+id/user_login_email"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+          android:layout_marginTop="25sp"
+          android:padding="15sp"
+           android:hint="Enter Email Address"
+           android:inputType="textEmailAddress"
+          android:background="@drawable/edit_text_background">
+       </EditText>
+
+       <EditText
+           android:id="@+id/user_login_password"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25sp"
+           android:padding="15sp"
+           android:hint="Enter Password"
+           android:inputType="textPassword"
+           android:background="@drawable/edit_text_background">
+       </EditText>
+
+       <Button
+           android:id="@+id/login_button"
+           android:layout_marginTop="25sp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Log In"
+           android:textColor="#fff"
+          android:background="@color/colorPrimary">
+       </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/forget_password_textview"
+        android:layout_below="@+id/linear_layout1"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password?"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="10sp"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+
+   <LinearLayout
+      android:id="@+id/linear_layout2"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal"
+       android:gravity="center"
+      android:layout_below="@+id/linear_layout1">
+
+      <TextView
+
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Dont Have An Account?"
+          android:textSize="15sp">
+   </TextView>
+
+      <TextView
+          android:id="@+id/register_fragment"
+          android:layout_marginLeft="5sp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Register"
+          android:textStyle="bold"
+          android:textSize="15sp">
+      </TextView>
+
+   </LinearLayout>
+
+</RelativeLayout>

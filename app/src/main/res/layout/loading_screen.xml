@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="nowifi.json"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/animation_view1"
+        android:text="No Internet Connection"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="15sp"
+        android:id="@+id/textView">
+    </TextView>
+
+    <Button
+        android:id="@+id/try_again_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:background="@color/colorPrimary"
+        android:text="Try Again"
+        android:textSize="18sp"
+        android:layout_marginTop="15sp"
+        android:textColor="#fff">
+    </Button>
+
+</RelativeLayout>
